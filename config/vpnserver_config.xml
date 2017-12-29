@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <log>
+    <config>../config/vpnserver_log.xml</config>
+  </log>
+  <http>:10081</http>
+  <redis>
+       <!-- 连接到 Redis 的 IP地址 -->
+       <address>10.235.102.208:6381</address>
+       <!-- 连接到 Redis 的索引号 -->
+       <index>2</index>
+  </redis>
+  <outip>45.33.63.42</outip>
+</config>
